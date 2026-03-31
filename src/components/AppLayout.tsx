@@ -16,6 +16,7 @@ const menuItems = [
   { title: "Input Nilai", url: "/nilai", icon: ClipboardList },
   { title: "Rekap Nilai", url: "/rekap", icon: FileText },
   { title: "Cetak Raport", url: "/cetak", icon: GraduationCap },
+  { title: "Pengaturan", url: "/pengaturan", icon: Settings },
 ];
 
 interface AppLayoutProps {

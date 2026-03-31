@@ -33,6 +33,7 @@ const App = () => (
             <Route path="/nilai" element={<NilaiPage />} />
             <Route path="/rekap" element={<RekapPage />} />
             <Route path="/cetak" element={<CetakPage />} />
+            <Route path="/pengaturan" element={<PengaturanPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AppLayout>
