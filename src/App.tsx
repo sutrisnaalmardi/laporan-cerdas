@@ -12,6 +12,7 @@ import KelasPage from "@/pages/KelasPage";
 import NilaiPage from "@/pages/NilaiPage";
 import RekapPage from "@/pages/RekapPage";
 import CetakPage from "@/pages/CetakPage";
+import PengaturanPage from "@/pages/PengaturanPage";
 import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +33,7 @@ const App = () => (
             <Route path="/nilai" element={<NilaiPage />} />
             <Route path="/rekap" element={<RekapPage />} />
             <Route path="/cetak" element={<CetakPage />} />
+            <Route path="/pengaturan" element={<PengaturanPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AppLayout>
